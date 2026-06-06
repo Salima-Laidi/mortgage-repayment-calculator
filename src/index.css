@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@theme{
+/* Primary */
+  --color-lime: hsl(61, 70%, 52%);
+  --color-red: hsl(4, 69%, 50%);
+  /* Neutral */
+  --color-white: hsl(0, 0%, 100%);
+  --color-slate-100: hsl(202, 86%, 94%);
+  --color-slate-300: hsl(203, 41%, 72%);
+  --color-slate-500: hsl(200, 26%, 54%);
+  --color-slate-700: hsl(200, 24%, 40%);
+  --color-slate-900: hsl(202, 55%, 16%);
+  --font-primary: "Plus Jakarta Sans", sans-serif;
+}
+@layer components{
+  .custom-label{
+    @apply font-primary text-slate-700 font-medium mt-4;
+  }
+  .container{
+    @apply border border-slate-700 border-solid rounded-md overflow-hidden flex  my-2;
+  }
+  .custom-span{
+    @apply bg-slate-100 py-2 px-4 text-slate-700 font-bold;
+  }
+  .custom-input{
+    /* we use flex-1 to make the input grow or shrink as needed and we use min-w-0 to prevent the input from overflowing over the span*/
+    @apply outline-none text-slate-900 font-bold ml-4 flex-1 min-w-0;
+  }
+  .container2{
+    @apply border border-slate-700 border-solid rounded-md py-2 px-4 my-2;
+  }
+  .custom-label2{
+    @apply text-slate-900 font-bold font-primary ml-3;
+  }
+}
+
+
+
