@@ -6,5 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   // the repository name 
-  base: "/mortgage-repayment-calculator-",
+  base: "/mortgage-repayment-calculator",
 })
