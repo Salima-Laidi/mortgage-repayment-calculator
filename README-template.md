@@ -24,7 +24,7 @@
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Salima-Laidi/mortgage-repayment-calculator.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://salima-laidi.github.io/mortgage-repayment-calculator/
 
 ## My process
 
